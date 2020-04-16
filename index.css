@@ -1,0 +1,111 @@
+ul {
+    list-style-type: none;
+}
+li {
+    cursor: pointer;
+    padding: 10px;
+    border: solid #ddd 1px;
+    margin: 4px;
+    border-radius: 4px;
+}
+li:hover {
+    background-color: #ddd;
+}
+
+/* -------------------------------------- */
+.fdl_wrapper {
+    background-color: #aca;
+    padding: 5px;
+    margin: 10px;
+    display: flex;
+    font-size: 12px;
+}
+.fdl_issue_user_icon > img {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+
+}
+.fdl_issue_user_icon {
+    display: inline-block;
+}
+.fdl_issue_user_displayName {
+    display: inline-block;
+}
+.fdl_area {
+    background-color: #efe;
+    margin: 5px;
+    padding: 5px;
+    min-height: 10px;
+    width: 100%
+}
+.fdl_fun:before {
+    content: "FUN";
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid #999;
+    padding: 5px;
+}
+.fdl_done:before {
+    content: "DONE";
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid #999;
+    padding: 5px;
+}
+.fdl_learn:before {
+    content: "LEARN";
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid #999;
+    padding: 5px;
+}
+.fdl_fun_done:before {
+    content: "FUN & DONE";
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid #999;
+    padding: 5px;
+}
+.fdl_fun_learn:before {
+    content: "FUN & LEARN";
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid #999;
+    padding: 5px;
+}
+.fdl_fun_done_learn:before {
+    content: "FUN & DONE & LEARN";
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid #999;
+    padding: 5px;
+}
+.fdl_done_learn:before {
+    content: "DONE & LEARN";
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid #999;
+    padding: 5px;
+}
+.fdl_fun:before {
+    content: "FUN";
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid #999;
+    padding: 5px;
+}
+.fdl_fun:before {
+    content: "FUN";
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid #999;
+    padding: 5px;
+}
+.fdl_fun:before {
+    content: "FUN";
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid #999;
+    padding: 5px;
+}

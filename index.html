@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.2/vue.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.8.4/Sortable.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Vue.Draggable/2.20.0/vuedraggable.umd.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="fdl_main">
+        <div class="fdl_wrapper">
+            <div class="fdl_area fdl_fun">
+                <!--
+                <draggable tag="ul" :options="{group:'ITEMS'}">
+                    <li v-for="issue in issues['fun']" :key="issue.key">
+                        <div class="fdl_issue_key">
+                            <a :href="issue.url">{{issue.key}}</a>
+                        </div>
+                        <div class="fdl_issue_summary">{{issue.summary}}</div>
+                        <div class="fdl_issue_user">
+                            <div class="fdl_issue_user_icon">{{issue.user.iconUrl}}</div>
+                            <div class="fdl_issue_user_displayName">{{issue.user.displayName</div>
+                        </div>
+                    </li>
+                </draggable>
+                -->
+            </div>
+            <div class="fdl_area fdl_fun_done">
+                <draggable tag="ul" :options="{group:'ITEMS'}">
+                    <issue :data="issue"></issue>
+                </draggable>
+            </div>
+            <div class="fdl_area fdl_done">3</div>
+        </div>
+        <div class="fdl_wrapper">
+            <div class="fdl_area fdl_fun_learn"></div>
+            <div class="fdl_area fdl_fun_done_learn"></div>
+            <div class="fdl_area fdl_done_learn"></div>
+        </div>
+        <div class="fdl_wrapper">
+            <div class="fdl_area"></div>
+            <div class="fdl_area fdl_learn"></div>
+            <div class="fdl_area"></div>
+        </div>
+    </div>
+    <hr>
+    <div id="app2">
+        <div class="box">
+            <draggable tag="ul" :options="{group:'ITEMS'}">
+                <li v-for="item, index in items">{{item.name}}-(No.{{item.no}})
+                </li>
+            </draggable>
+        </div>
+        <div class="box">
+            <draggable tag="ul" :options="{group:'ITEMS'}">
+                <li v-for="item, index in items2">{{item.name}}-(No.{{item.no}})</li>
+            </draggable>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
